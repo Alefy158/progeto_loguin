@@ -1,0 +1,49 @@
+html{
+    height: 90vh;
+}
+body{
+    margin: 0;
+    color: white;
+}
+header{
+    background-color: black;
+    height: 3em;
+}
+section#perfil{
+    background-color: rgb(20, 20, 20);
+    padding: 5px;
+    border-bottom: 2px black solid;
+}
+#imgperfil, #infob{
+    display: inline-block;
+}
+#imgperfil{
+    background-color: aqua;
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;
+}
+p{
+    margin: 0%;
+}
+#infob>p{
+    display: inline-block;
+    padding-left: 15px;
+}
+#infob{
+    text-align: center;
+    vertical-align: 150%;
+    font-size: 1em;
+}
+#conteudo{
+    background-color: gray;
+    height: 330px;
+    width: 100%;
+}
+footer{
+    position: absolute;
+    background-color: black;
+    height: 2em;
+    width: 100%;
+    bottom: 0;
+}

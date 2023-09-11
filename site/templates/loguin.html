@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="caixa">
+        <h1>Entrar</h1>
+        <form action="/enviar" method="post">
+            <fieldset>
+                <legend>Email</legend>
+                <div class="caixa1">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Senha</legend>
+                <div class="caixa1">
+                    <label for="senha"></label>
+                    <input type="password" id="senha" name="senha" required>
+                </div>
+            </fieldset>
+            <input type="submit" value="Enviar" id='but'>
+        </form>
+        <form action="/registro" method="post">
+            <button type="submit" name="but" value="valor_do_botao" id='but'>Cadastre-se</button>
+        </form>
+    </div>
+    <footer>
+        <p>&copy;alefy</p>
+    </footer>
+</body>
+</html>
